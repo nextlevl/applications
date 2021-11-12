@@ -1,0 +1,25 @@
+body {
+    color: white;
+    background: url('img/background.jpg');
+}
+
+.main {
+    margin-left: 10px;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black, 0px 0px 15px white;
+    margin-top: 135px;
+}
+
+.nextlevel {
+    float: left;
+    width: 455px;
+    height: 700px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.nextlevel:hover {
+    box-shadow: 0px 0px 15px white;
+}
